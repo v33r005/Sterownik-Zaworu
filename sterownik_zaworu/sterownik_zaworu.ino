@@ -8,6 +8,7 @@
 void setup() {
 
   Serial.begin(115200);
+  #include "storage_init.h"
 
   r1 = new Supla::Control::Relay(RELAY_GPIO);
 
